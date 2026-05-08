@@ -99,25 +99,6 @@ Abre el navegador en `http://localhost:8501` y sube los dos CSVs para comenzar.
 
 ---
 
-## Casos de uso
-
-Este agente está diseñado para procesos de cierre contable en:
-
-- Empresas medianas con departamento financiero propio
-- Banca y cajas rurales
-- Aseguradoras y gestoras de fondos
-- Cualquier organización que realice conciliaciones periódicas entre sistemas bancarios y ERP
-
----
-
-## Seguridad
-
-- Nunca incluyas el archivo `.env` en el repositorio.
-- El `.gitignore` ya está configurado para excluirlo.
-- Rota tu API key periódicamente desde [console.anthropic.com](https://console.anthropic.com).
-
----
-
 ## Licencia
 
 MIT License — puedes usar, modificar y distribuir este proyecto libremente.
